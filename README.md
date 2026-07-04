@@ -63,6 +63,11 @@ VendorIQ_AI/
 ```
 
 ---
+## 📁 Dataset
+
+The original SQLite database used during development is not included in this repository because it exceeds GitHub's file size limit.
+
+The trained machine learning models are included, allowing the application to run without retraining. Users who wish to retrain the models can replace the database by placing an `inventory.db` file inside the `data/` directory.
 
 # 🧠 Machine Learning Models
 
@@ -129,7 +134,7 @@ The invoice risk model predicts whether an invoice should proceed through the st
 # 🚀 Running the Project
 
 ```bash
-git clone link
+gh repo clone Pratik-Billade/VendorIQ_AI
 
 cd VendorIQ_AI
 
